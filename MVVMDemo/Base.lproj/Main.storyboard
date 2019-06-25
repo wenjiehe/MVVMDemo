@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KOW-oc-zgK">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--账号-->
+        <scene sceneID="cDE-WY-Wan">
+            <objects>
+                <navigationController id="DCc-dt-5F8" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="账号" id="vfx-5q-WbU"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="AqB-rT-mLA">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="XY0-bn-Bo9" kind="relationship" relationship="rootViewController" id="N54-Zx-Uba"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i3X-bN-ujE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-471" y="1125"/>
+        </scene>
+        <!--账号-->
+        <scene sceneID="NSZ-wc-o2r">
+            <objects>
+                <viewController id="XY0-bn-Bo9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jLB-zS-Kmg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="9ju-eN-Y4j"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="账号" id="B7K-dn-8kD"/>
+                    <navigationItem key="navigationItem" title="账号" id="SAK-5c-rgB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="syw-XC-Hq0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="570" y="1154"/>
+        </scene>
+        <!--我的-->
+        <scene sceneID="mKC-sW-L66">
+            <objects>
+                <viewController id="NoZ-m1-kIQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XRz-sf-PAK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="PF1-9v-Ba7"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="我的" id="RRO-I7-bdm"/>
+                    <navigationItem key="navigationItem" title="我的" id="Fft-HZ-NZl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fha-kp-sbj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="570" y="-339"/>
+        </scene>
+        <!--云村-->
+        <scene sceneID="Hcu-cQ-KCP">
+            <objects>
+                <navigationController id="YS6-eC-nR5" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="云村" id="5fV-7S-Wkh"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qQh-No-pz5">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="cBC-AG-V6G" kind="relationship" relationship="rootViewController" id="KkP-Nq-Lac"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IsW-4V-R5k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-471" y="400"/>
+        </scene>
+        <!--云村-->
+        <scene sceneID="jBv-Uv-CbT">
+            <objects>
+                <viewController id="cBC-AG-V6G" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UND-Mm-Hgo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="jXv-Ja-WI4"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="云村" id="wWL-tz-TSU"/>
+                    <navigationItem key="navigationItem" title="云村" id="n0Y-hq-dsd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DRM-R3-3t0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="570" y="400"/>
+        </scene>
+        <!--视频-->
+        <scene sceneID="3F0-EV-5Sp">
+            <objects>
+                <navigationController id="Gda-Uh-JwQ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="视频" id="Hr8-H0-jo9"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kJ0-ON-g2g">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="VmC-GV-e3I" kind="relationship" relationship="rootViewController" id="p1u-jy-EGQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Qx-Zt-WAt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-471" y="-1071"/>
+        </scene>
+        <!--视频-->
+        <scene sceneID="gZt-X9-0hu">
+            <objects>
+                <viewController id="VmC-GV-e3I" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="a00-ru-xGC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="f6K-u2-Znu"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="视频" id="A0Z-vH-8PC"/>
+                    <navigationItem key="navigationItem" title="视频" id="tyL-74-lXs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U8e-dr-ArT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="570" y="-1071"/>
+        </scene>
+        <!--发现-->
+        <scene sceneID="tmN-1Q-TBJ">
+            <objects>
+                <navigationController id="kzO-6x-id9" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="发现" id="WC0-aR-fw4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7c7-qJ-QDj">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="prR-rK-0Zd" kind="relationship" relationship="rootViewController" id="s1g-V1-MSc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qzE-Z1-2ty" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-471" y="-1787"/>
+        </scene>
+        <!--发现-->
+        <scene sceneID="TGK-UC-d2w">
+            <objects>
+                <viewController id="prR-rK-0Zd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KEd-jh-lOj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="lsL-HW-ZDL"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="发现" id="x3m-8h-q0T"/>
+                    <navigationItem key="navigationItem" title="发现" id="UED-St-O7E"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sqk-DI-yaO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="571" y="-1787"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="ftK-I4-qqZ">
+            <objects>
+                <tabBarController id="KOW-oc-zgK" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KTZ-l9-tV9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="kzO-6x-id9" kind="relationship" relationship="viewControllers" id="Iyd-Dh-NiR"/>
+                        <segue destination="Gda-Uh-JwQ" kind="relationship" relationship="viewControllers" id="hO5-XM-BuP"/>
+                        <segue destination="vY4-Qo-J8Y" kind="relationship" relationship="viewControllers" id="J8s-AX-LHh"/>
+                        <segue destination="YS6-eC-nR5" kind="relationship" relationship="viewControllers" id="bfZ-2b-vi2"/>
+                        <segue destination="DCc-dt-5F8" kind="relationship" relationship="viewControllers" id="P0g-ol-Ytt"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mq1-ed-BDa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1772" y="-626"/>
+        </scene>
+        <!--我的-->
+        <scene sceneID="cNX-Ur-Isd">
+            <objects>
+                <navigationController id="vY4-Qo-J8Y" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="我的" id="nAh-h9-0rw"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TJS-iG-Kcz">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="NoZ-m1-kIQ" kind="relationship" relationship="rootViewController" id="68K-Qy-br3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="trB-A8-Gk5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-471" y="-339"/>
+        </scene>
+    </scenes>
+</document>
