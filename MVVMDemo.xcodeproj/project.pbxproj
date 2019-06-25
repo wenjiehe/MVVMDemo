@@ -58,7 +58,7 @@
 		3DEAE33B22C141370012737D /* MVVMDemo */ = {
 			isa = PBXGroup;
 			children = (
-				3DEAE37422C289350012737D /* Functions */,
+				3DEAE39322C28E730012737D /* Functions */,
 				3DEAE33C22C141370012737D /* AppDelegate.h */,
 				3DEAE33D22C141370012737D /* AppDelegate.m */,
 				3DEAE33F22C141370012737D /* ViewController.h */,
@@ -72,251 +72,51 @@
 			path = MVVMDemo;
 			sourceTree = "<group>";
 		};
-		3DEAE37422C289350012737D /* Functions */ = {
+		3DEAE39322C28E730012737D /* Functions */ = {
 			isa = PBXGroup;
 			children = (
-				3DEAE37522C289350012737D /* Find(发现) */,
-				3DEAE37B22C289350012737D /* Clound(云村) */,
-				3DEAE38122C289350012737D /* Account(账号) */,
-				3DEAE38722C289350012737D /* Video(视频) */,
-				3DEAE38D22C289350012737D /* My(我的) */,
+				3DEAE39422C28E730012737D /* Find(发现) */,
+				3DEAE39522C28E730012737D /* Clound(云村) */,
+				3DEAE39622C28E730012737D /* Account(账号) */,
+				3DEAE39722C28E730012737D /* Video(视频) */,
+				3DEAE39822C28E730012737D /* My(我的) */,
 			);
 			path = Functions;
 			sourceTree = "<group>";
 		};
-		3DEAE37522C289350012737D /* Find(发现) */ = {
+		3DEAE39422C28E730012737D /* Find(发现) */ = {
 			isa = PBXGroup;
 			children = (
-				3DEAE37622C289350012737D /* ViewModel */,
-				3DEAE37722C289350012737D /* VC */,
-				3DEAE37822C289350012737D /* Model */,
-				3DEAE37922C289350012737D /* View */,
-				3DEAE37A22C289350012737D /* Service */,
 			);
 			path = "Find(发现)";
 			sourceTree = "<group>";
 		};
-		3DEAE37622C289350012737D /* ViewModel */ = {
+		3DEAE39522C28E730012737D /* Clound(云村) */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		3DEAE37722C289350012737D /* VC */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = VC;
-			sourceTree = "<group>";
-		};
-		3DEAE37822C289350012737D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		3DEAE37922C289350012737D /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		3DEAE37A22C289350012737D /* Service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		3DEAE37B22C289350012737D /* Clound(云村) */ = {
-			isa = PBXGroup;
-			children = (
-				3DEAE37C22C289350012737D /* ViewModel */,
-				3DEAE37D22C289350012737D /* VC */,
-				3DEAE37E22C289350012737D /* Model */,
-				3DEAE37F22C289350012737D /* View */,
-				3DEAE38022C289350012737D /* Service */,
 			);
 			path = "Clound(云村)";
 			sourceTree = "<group>";
 		};
-		3DEAE37C22C289350012737D /* ViewModel */ = {
+		3DEAE39622C28E730012737D /* Account(账号) */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		3DEAE37D22C289350012737D /* VC */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = VC;
-			sourceTree = "<group>";
-		};
-		3DEAE37E22C289350012737D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		3DEAE37F22C289350012737D /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		3DEAE38022C289350012737D /* Service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		3DEAE38122C289350012737D /* Account(账号) */ = {
-			isa = PBXGroup;
-			children = (
-				3DEAE38222C289350012737D /* ViewModel */,
-				3DEAE38322C289350012737D /* VC */,
-				3DEAE38422C289350012737D /* Model */,
-				3DEAE38522C289350012737D /* View */,
-				3DEAE38622C289350012737D /* Service */,
 			);
 			path = "Account(账号)";
 			sourceTree = "<group>";
 		};
-		3DEAE38222C289350012737D /* ViewModel */ = {
+		3DEAE39722C28E730012737D /* Video(视频) */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		3DEAE38322C289350012737D /* VC */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = VC;
-			sourceTree = "<group>";
-		};
-		3DEAE38422C289350012737D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		3DEAE38522C289350012737D /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		3DEAE38622C289350012737D /* Service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		3DEAE38722C289350012737D /* Video(视频) */ = {
-			isa = PBXGroup;
-			children = (
-				3DEAE38822C289350012737D /* ViewModel */,
-				3DEAE38922C289350012737D /* VC */,
-				3DEAE38A22C289350012737D /* Model */,
-				3DEAE38B22C289350012737D /* View */,
-				3DEAE38C22C289350012737D /* Service */,
 			);
 			path = "Video(视频)";
 			sourceTree = "<group>";
 		};
-		3DEAE38822C289350012737D /* ViewModel */ = {
+		3DEAE39822C28E730012737D /* My(我的) */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		3DEAE38922C289350012737D /* VC */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = VC;
-			sourceTree = "<group>";
-		};
-		3DEAE38A22C289350012737D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		3DEAE38B22C289350012737D /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		3DEAE38C22C289350012737D /* Service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		3DEAE38D22C289350012737D /* My(我的) */ = {
-			isa = PBXGroup;
-			children = (
-				3DEAE38E22C289350012737D /* ViewModel */,
-				3DEAE38F22C289350012737D /* VC */,
-				3DEAE39022C289350012737D /* Model */,
-				3DEAE39122C289350012737D /* View */,
-				3DEAE39222C289350012737D /* Service */,
 			);
 			path = "My(我的)";
-			sourceTree = "<group>";
-		};
-		3DEAE38E22C289350012737D /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		3DEAE38F22C289350012737D /* VC */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = VC;
-			sourceTree = "<group>";
-		};
-		3DEAE39022C289350012737D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		3DEAE39122C289350012737D /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		3DEAE39222C289350012737D /* Service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
